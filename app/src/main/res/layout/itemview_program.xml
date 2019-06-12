@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium_2"
+                android:background="@color/black">
+
+
+    <ImageView
+            android:id="@+id/ivProgram"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:src="@drawable/current_prog"/>
+
+    <TextView
+            android:id="@+id/tvProgramTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_regular_2x"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_below="@id/ivProgram"/>
+
+    <TextView
+            android:id="@+id/tv_peroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 mins"
+            android:layout_below="@id/tvProgramTitle"
+            android:layout_alignLeft="@id/tvProgramTitle"
+            android:layout_alignRight="@id/tvProgramTitle"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColor="@color/white"/>
+
+</RelativeLayout>
